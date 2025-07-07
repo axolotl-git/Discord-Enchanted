@@ -3,6 +3,7 @@ this repository containt some CSS code to enhance the discord expirience, Think 
 
 ## Slop removed
 as the name implies, this style sheet serves to remove certain clutter elements in the discord user interface, for example we removed all banners advertising nitro, discord is full of them!!!
+
 full list of what we removed:
 - personalizattion suggestions
 - Nitro ads in the profile settings
@@ -18,6 +19,18 @@ full list of what we removed:
 - title bar that tell you the server name 🟦
 
 legend:
-🟦 is broken/may break on chrorium
+🟦 is broken/may break on chrorium browsers
 🟥 will break if you don't use English or Italian language on discord 
 -# thank you, discord developers, for making it annoying to work with ^3^
+## enchanted ui
+this one make the ui a little less cluttered and sleek
+
+full list of what we changed:
+- message search bar, now its less long and when you click it the bar will became longer again
+- the user pannell now will not over the channel list
+- categories and chat are now slightly more compact
+- settings now don't have a big forehead anymore
+- the apps authorization list is now more compact
+
+### known issues:
+the server list could have problems on chrorium browsers
