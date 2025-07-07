@@ -1,0 +1,66 @@
+/* ==UserStyle==
+@name         discord.com slop remover
+@version      20250707.16.11
+@namespace    ?
+@description  this extension remove slop like the server title bar or nitro in dms but add even some new style too!
+@license      GPLv3
+==/UserStyle== */
+
+@-moz-document url-prefix("https://discord.com/") {
+/*this remove the server title bar*/
+:root {
+    --custom-app-top-bar-height: 0px;
+}
+/* Add 12px offset to the server list, fixes the uncomfortable look when removing the titlebar*/
+nav.wrapper_ef3116 {
+    padding-top: 12px;
+}
+
+/*this remove the gap under the server bar*/
+.visual-refresh .wrapper_ef3116 {
+    --custom-guild-list-width: 80px;
+    background-color: var(--bg-base-tertiary);
+    margin-bottom: 0px;
+    width: var(--custom-guild-list-width);
+}
+
+/*revert back "bot" and removed "App" USE THIS ONLY IF YOU DON'T MIND TO LOSE THE CHECK MARK ON THE LEFT OF THE BOT TAG
+.botText__82f07 {
+    visibility: hidden; 
+}
+.botText__82f07::before {
+    content: "bot";
+    visibility: visible;
+    padding: 2.5px;
+}
+span.botTag__5d473, span.botTagRegular__82f07.botTag__82f07.px__82f07{
+    width: 23px;
+}*/
+
+/* remove various elements */
+div.container_cdb3b1, /*remove personalizattion suggestion like "you can now use the tag of this server"*/
+div.container__8279f, /*remove profile personalizzation slop*/
+.floatingNitroUpsell__39749, /*remove the boxes that try to sell you nitro*/ 
+.upsellContainer__0b69f.upsellContainerInline__0b69f.container__0c185.premiumUpsell_edf440,
+.premiumBackground__65c15.background__65c15, /*remove the nitro preview*/
+div[class*=overlayBackground_]:has(button[class*=getNitroButton_]), /* Disable 'Learn More' for nitro in the popout in the side DM */
+div[class*=characterCount_] div[class*=iconOnly_]:has(svg[class*=premium_]), /* Disable nitro icon in word count */
+ .newMemberBadge_f80704,/* remove "New member" tag */
+#channel-attach-SLASH_COMMAND,/*remove the button "use app" since its VERY useless, jus use the "/" lol*/
+[aria-label="Help"], /*this hide that useless "help" button, but it will break if you don't use english or italian*/
+[aria-label="Aiuto"],
+button[aria-label="Send a gift"], /*remove the git button, break if you don't use discord in english or italian*/
+button[aria-label="Invia un regalo"],
+a[href="/shop"], /*remove shop button from dms, if you have nitro you probably want it back*/
+a[href="/store"]  /*remove nitro buttons from dms, if you have nitro you probably want it back*/ {
+    display: none !important;
+}
+}
+
+@-moz-document url-prefix("https://discord.com/channels/@me"), url-prefix("https://discord.com/store"), url-prefix("https://discord.com/shop") {
+/*this make possible the use of the button for reading received messages*/
+.button__85643 {
+    right: 1053px;
+    top: 79px;
+}
+}
