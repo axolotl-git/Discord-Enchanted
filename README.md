@@ -1,7 +1,9 @@
 # best way to use Discord-Enchanted
 we suggest to use stylus for using our style, below the download links
-[<img src="/assets/stylus.png"><img src="/assets/Firefox_Add-ons.png">](https://addons.mozilla.org/it/firefox/addon/styl-us/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
-[<img src="/assets/stylus.png"><img src="assets/Chrome_Web_Store.png">](https://chromewebstore.google.com/detail/clngdbkpkpeebahjckkjfobafhncgmne?utm_source=item-share-cb)
+
+[<img src="/assets/stylus.png" style="height: 60px;"><img src="/assets/Firefox_Add-ons.png" style="height: 60px;"> ](https://addons.mozilla.org/it/firefox/addon/styl-us/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+
+[<img src="/assets/stylus.png" style="height: 60px;"><img src="assets/Chrome_Web_Store.png" style="height: 60px;">](https://chromewebstore.google.com/detail/clngdbkpkpeebahjckkjfobafhncgmne?utm_source=item-share-cb)
 # Discord-Enchanted
 this repository containt some CSS code to enhance the discord expirience, Think of it as putting sharpness on a sword 
 full list of what we changed:
@@ -44,7 +46,7 @@ this one make the ui a little less cluttered and sleek
 ### known issues:
 the server list could have problems on chrorium browsers
 
-### why there are fetures that mayb brek if i don't use English or Italian?
+### why there are fetures that are broken if i don't use English or Italian?
 
-this problem is due of discord developer using same classes and IDs for elements, and the only way to distinguish them is by using "aria-label" an element that is useful for blind people but we use it for distringuish an element from another if they have the same class and id, since aria-labels change for every language i decided to use englis, the most used lnguage and Italian, my native language;
-if you want other launguages fork the repo, add it and then make a pull request so we can add the new languages, thanks
+this problem is due of discord developer using same classes and IDs for elements, and the only way to distinguish them is by using "aria-label" that is useful for blind people but we use it to distinguish an element from another if they have the same class and id, since aria-labels change for every language i decided to use english, the most used lnguage and Italian, my native language;
+if you want other launguages please fork the repo, add it and then make a pull request so we can add the new languages, thanks
