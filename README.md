@@ -37,7 +37,9 @@ full list of what we removed:
 
 legend:
 🟦 is broken/may break on chrorium browsers
+
 🟥 will break if you don't use English or Italian language on discord 
+
 -# thank you, discord developers, for making it annoying to work with ^3^
 ## enchanted ui
 this one make the ui a little less cluttered and sleek
