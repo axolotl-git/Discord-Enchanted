@@ -46,7 +46,7 @@ this one make the ui a little less cluttered and sleek
 ### known issues:
 the server list could have problems on chrorium browsers
 
-### why there are fetures that mayb brek if i don't use English or Italian?
+### why there are fetures that are broken if i don't use English or Italian?
 
-this problem is due of discord developer using same classes and IDs for elements, and the only way to distinguish them is by using "aria-label" an element that is useful for blind people but we use it for distringuish an element from another if they have the same class and id, since aria-labels change for every language i decided to use englis, the most used lnguage and Italian, my native language;
-if you want other launguages fork the repo, add it and then make a pull request so we can add the new languages, thanks
+this problem is due of discord developer using same classes and IDs for elements, and the only way to distinguish them is by using "aria-label" that is useful for blind people but we use it to distinguish an element from another if they have the same class and id, since aria-labels change for every language i decided to use english, the most used lnguage and Italian, my native language;
+if you want other launguages please fork the repo, add it and then make a pull request so we can add the new languages, thanks
