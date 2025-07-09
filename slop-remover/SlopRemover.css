@@ -91,7 +91,8 @@ a[href="/store"], /* remove nitro buttons from DMs, if you have nitro you probab
 .medium__49fc1,
 .large__49fc1,
 .footer__49fc1,
-.header__49fc1 {
+.header__49fc1,
+.layerContainer_da8173{
     display: none !important;
 }
 
