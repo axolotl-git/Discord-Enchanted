@@ -1,3 +1,7 @@
+# best way to use Discord-Enchanted
+we suggest to use stylus for using our style, below the download links
+[<img src="/assets/stylus.png"><img src="/assets/Firefox_Add-ons.png">](https://addons.mozilla.org/it/firefox/addon/styl-us/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+[<img src="/assets/stylus.png"><img src="assets/Chrome_Web_Store.png">](https://chromewebstore.google.com/detail/clngdbkpkpeebahjckkjfobafhncgmne?utm_source=item-share-cb)
 # Discord-Enchanted
 this repository containt some CSS code to enhance the discord expirience, Think of it as putting sharpness on a sword 
 full list of what we changed:
