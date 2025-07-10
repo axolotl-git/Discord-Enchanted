@@ -83,8 +83,14 @@ button[aria-label="Send a gift"], /* remove the gift button, breaks if you don't
 button[aria-label="Invia un regalo"],
 a[href="/shop"], /* remove shop button from DMs, if you have nitro you probably want it back */
 a[href="/store"], /* remove nitro buttons from DMs, if you have nitro you probably want it back */
-{
-    display: none !important;
+[class*="clanTagChiplet"] /* hide the whole clan‐tag chiplet */{
+  display: none !important;
+}
+
+/*also hide any inner badge + tag text */
+img[src*="clan-badges"] ,
+[class*="tagText__"] {
+  display: none !important;
 }
 }
 
