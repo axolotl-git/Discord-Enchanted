@@ -84,18 +84,15 @@ button[aria-label="Invia un regalo"],
 a[href="/shop"], /* remove shop button from DMs, if you have nitro you probably want it back */
 a[href="/store"], /* remove nitro buttons from DMs, if you have nitro you probably want it back */
 /*this shit should remove any discord offer pop up because...i will never buy nitro!!*/
-.root_d06335 .root__49fc1 .small__49fc1 .fullscreenOnMobile__49fc1 .rootWithShadow__49fc1,
-.focusLock__49fc1,
-.root__49fc1,
+.root_d06335  .small__49fc1 .fullscreenOnMobile__49fc1 .rootWithShadow__49fc1,
 .small__49fc1,
 .medium__49fc1,
 .large__49fc1,
 .footer__49fc1,
-.header__49fc1,
-.layerContainer_da8173{
+.header__49fc1
+{
     display: none !important;
 }
-
 }
 
 @-moz-document url-prefix("https://discord.com/channels/@me"), url-prefix("https://discord.com/store"), url-prefix("https://discord.com/shop") {
