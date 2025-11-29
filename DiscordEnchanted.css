@@ -1,9 +1,15 @@
-@import url("https://raw.githubusercontent.com/axolotl-git/Discord-Enchanted/refs/heads/main/enchanted-ui/EnchantedUI.css");
-@import url("https://raw.githubusercontent.com/axolotl-git/Discord-Enchanted/refs/heads/main/slop-remover/SlopRemover.css");
-:root {
-    --radius-sm: 15px;  /*this variable is for making edges more or less roundy*/
-    --input-area-radius: 15px;  /*this variable is for making edges more or less roundy for the messages input bar*/
-    --input-area-color: ; /*this variable is for making the messages input bar color, keep blank for default*/
-    --text-muted: #ffffff94;/*it change gray text color*/
-    --text-normal: #ffffffe3;/*it change text color*/
+@import url("https://userstyles.world/api/style/23129.user.css");
+@import url("https://userstyles.world/api/style/23106.user.css");
+:root{
+/*this variable is for making edges more or less roundy*/
+--radius-sm:20px;
+--input-area-radius:20px;
+--avatars:35%;
+--overall-roundness:15px;
+--overall-roundness-sm:7px;
+
+--input-area-color:;
+--text-muted:#ffffff94;
+--text-normal:#ffffffe3
+--custom-category-channel-space-before-category:7px
 }
